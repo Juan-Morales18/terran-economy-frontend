@@ -1,0 +1,40 @@
+{
+  "name": "terran-economy-frontend",
+  "version": "1.0.0",
+  "description": "Frontend of a web system to administrate money",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --open --config webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMora-spg/terran-economy-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanMora-spg/terran-economy-frontend/issues"
+  },
+  "homepage": "https://github.com/JuanMora-spg/terran-economy-frontend#readme",
+  "dependencies": {
+    "@emotion/react": "11.8.2",
+    "@emotion/styled": "11.8.1",
+    "@mui/material": "5.5.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.8",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-react": "7.16.7",
+    "babel-loader": "8.2.4",
+    "babel-plugin-import": "1.13.3",
+    "html-loader": "3.1.0",
+    "html-webpack-plugin": "5.5.0",
+    "webpack": "5.71.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.7.4"
+  }
+}
